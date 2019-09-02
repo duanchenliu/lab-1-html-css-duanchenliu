@@ -1,0 +1,82 @@
+h1 {font-family: "Raleway", sans-serif
+}
+body, html {height: 100%}
+#content {
+  font-size: 15px;
+	padding: 30px 10px;
+	background-color: #F7F7F7;
+	color: black;
+}
+.button {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 1%;
+}
+.bgimg {
+    background-image: url('/img/boston.jpg');
+    min-height: 40%;
+    background-position: center;
+    background-size: cover;
+  }
+
+a{
+  font-family: Helvetica;
+}
+
+a:hover { 
+    background-color: lightgreen;
+    display: inline-block;
+    text-transform: capitalize;
+}
+
+
+img{
+    padding: 15px 32px;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 675px);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+  }
+  .one {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .two { 
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+div div p{
+  background-color: rgb(99, 90, 90);
+  border: 2px solid rgb(221, 226, 217);
+  color: #F7F7F7;
+  font-family: Helvetica;
+  padding: 5%;
+}
+
+div div p:hover{
+  background-color: rgb(175, 38, 38);
+}
+
+div h1{
+  padding: 1%;
+}
+
+h1{
+  padding: 1%;
+}
+
+div p{
+  padding: 1%;
+  color: black;
+  font-weight: bold; 
+}
+ 
