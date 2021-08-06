@@ -10,4 +10,4 @@
 | Unacceptable  | 0 points  | Does not satisfy any of requirements. |
 
 ## Grade
-TBD
+5
